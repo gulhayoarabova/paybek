@@ -1,0 +1,52 @@
+.banner_animation{
+background-color: #f2f5f7;
+.banner_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 0;
+  .centered_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .black_txt {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: -0.02em;
+      text-transform: capitalize;
+      width: 555px;
+      color: #1a1c1f;
+      margin-bottom: 20px;
+    }
+    .grey_txt {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 34px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #707484;
+      width: 530px;
+    }
+    .download_btn {
+      background: #1652f0;
+      border-radius: 5px;
+      width: 290px;
+      height: 62px;
+      outline: none;
+      border: none;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 34px;
+      text-transform: capitalize;
+      margin-top: 42px;
+      color: #fff;
+    }
+  }
+  
+}
+
+
+}

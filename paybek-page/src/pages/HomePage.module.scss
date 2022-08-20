@@ -1,0 +1,246 @@
+* {
+  font-family: "Arial";
+}
+// same text and style
+
+// home page starts here
+.homepage_wrapper {
+  // essantials first style
+  .essentials_first {
+    background-color: #f2f5f7;
+    padding-top: 30px;
+
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .img_txt {
+        background-image: url("../assets/images/Rectangle.png");
+        border-radius: 20px;
+        width: 834px;
+        height: 421px;
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .wht_lrg {
+          font-weight: 700;
+          font-size: 55px;
+          line-height: 80px;
+          color: #ffffff;
+          padding-left: 40px;
+        }
+        .xsml_txt {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 32px;
+          color: #ffffff;
+          padding-left: 40px;
+          padding-bottom: 70px;
+        }
+      }
+    }
+  }
+  // essantials second
+  .essentials_second {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 62px;
+
+    .img_parts_wrapper {
+      display: flex;
+      justify-content: space-between;
+      .left_side_img {
+        width: 50%;
+        margin-top: 200px;
+        .txt_wrap {
+          margin-left: 150px;
+
+          ul {
+            display: flex;
+            align-items: center;
+
+            li {
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 32px;
+              color: #1652f0;
+              list-style: none;
+
+              &:nth-child(1) {
+                margin-right: 10px;
+              }
+            }
+          }
+
+          .left_txt {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 36px;
+            color: #1a1c1f;
+            margin-top: 20px;
+          }
+        }
+        .left_img {
+          margin-top: 70px;
+        }
+      }
+
+      .right_side_img {
+        width: 50%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 50px;
+
+        .right_img {
+          width: 303px;
+          height: 611px;
+        }
+        .txt_wrap_right {
+          margin-top: 70px;
+          ul {
+            display: flex;
+            align-items: center;
+
+            li {
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 32px;
+              color: #1652f0;
+              list-style: none;
+
+              &:nth-child(1) {
+                margin-right: 10px;
+              }
+            }
+          }
+          .right_txt {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 36px;
+            color: #1a1c1f;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .slider_section {
+    background-color: #f2f5f7;
+    padding-top: 60px;
+    .txt_wrap {
+      margin-left: 300px;
+      width: 300px;
+
+      ul {
+        display: flex;
+        align-items: center;
+
+        li {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 32px;
+          color: #1652f0;
+          list-style: none;
+
+          &:nth-child(1) {
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .left_txt {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        color: #1a1c1f;
+        margin-top: 20px;
+      }
+    }
+    .wrap {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .slider {
+        background-image: url("../assets/images/phone2.png");
+        width: 353px;
+        height: 611px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: 50px;
+        .hundred_country{
+          position: absolute;
+          top: 150px;
+          left: 250px;
+          width: 150px;
+          background: #FFFFFF;
+            border-radius: 12px;
+            width: 150px;
+              height: 51px;
+              display: flex;
+              align-items: center;
+              padding-left: 10px;
+              font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: #1A1C1F;
+
+        }
+      }
+    }
+  }
+
+  .getApp{
+    background: #1652F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 35px 0;
+    margin-top: 50px;
+    .txt1{
+      font-weight: 400;
+        font-size: 18px;
+        line-height: 52px;
+        color: #FFFFFF;
+    }
+    .txt2{
+      font-weight: 400;
+        font-size: 40px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 20px 0 35px 0;
+    }
+    .getApp_btn{
+      background: #FFFFFF;
+        border-radius: 20px;
+        width: 213px;
+          height: 38px;
+          display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 4px;
+            outline: none;
+            border: none;
+            font-weight: 700;
+              font-size: 20px;
+              line-height: 34px;
+              text-transform: capitalize;
+              color: #1652F0;
+    }
+  }
+}
