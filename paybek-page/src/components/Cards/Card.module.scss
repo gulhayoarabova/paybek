@@ -26,6 +26,11 @@
       img {
         margin-right: 60px;
         flex-wrap: wrap;
+        transition: all .3s ease-in-out;
+        
+          &:hover {
+            transform: scale(1.1);
+          }
         &:nth-child(4) {
           margin-left: 40px;
         }
@@ -37,6 +42,11 @@
     .debit_card {
       width: 217.99px;
       height: 141.96px;
+      transition: all .3s ease-in-out;
+      
+        &:hover {
+          transform: scale(1.1);
+        }
     }
   }
   .card_two {
@@ -58,6 +68,10 @@
       margin-top: 50px;
       width: 172px;
       height: 162.71px;
+      transition: all .5s ease-in-out;
+  &:hover {
+      transform: scale(1.1);
+    }
     }
   }
 }

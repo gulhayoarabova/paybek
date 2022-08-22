@@ -6,36 +6,42 @@ import ufone from "../../assets/images/ufone.png";
 import classes from  "./Sliderr.module.scss"
 
 const Sliderr = () => {
-  var settings = {
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+  const  settings = {
+      dots: false,
+      infinite: true,
+      speed: 700,
+      slidesToShow: 6,
+      slidesToScroll: 2,
   };
   return (
+    <div className={classes.slide_wrapper}> 
     <Slider {...settings}>
-      <div className={classes.slide_wrapper}>
         <div>
-        <img src={ufone} alt="" />
+        <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
         <div >
-          <img src={ufone} alt="" />
+          <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
         <div >
-          <img src={ufone} alt="" />
+          <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
         <div >
-          <img src={ufone} alt="" />
+          <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
         <div >
-          <img src={ufone} alt="" />
+          <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
         <div >
-          <img src={ufone} alt="" />
+          <img src={ufone} alt="" className={classes.slider_img}/>
         </div>
-      </div>
+          <div >
+          <img src={ufone} alt="" className={classes.slider_img}/>
+        </div>
+          <div >
+          <img src={ufone} alt="" className={classes.slider_img}/>
+        </div>
       </Slider>
+     </div> 
   );
 };
 

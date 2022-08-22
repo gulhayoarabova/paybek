@@ -25,14 +25,17 @@
 }
 
 .header_wrapper {
-  padding: 10px 0 5px 0;
   background: #f2f3f4;
   border-bottom: 2px solid #e5e8eb;
+  
 
   .header_container {
-    max-width: 1000px;
+    padding: 10px 50px;
     width: 100%;
     margin: 0 auto;
+  position: fixed;
+backdrop-filter: blur(16px);
+  background-color: rgba(241, 242, 244, 0.8);
     @include spaceBetween;
 
     .header_items {

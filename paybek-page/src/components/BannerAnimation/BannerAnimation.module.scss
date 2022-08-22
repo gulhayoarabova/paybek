@@ -1,5 +1,49 @@
+
 .banner_animation{
 background-color: #f2f5f7;
+display: flex;
+padding-top: 100px;
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+.left_img_wrap{
+  animation: mySlide 3s linear 0s;
+  animation-duration: 2s;
+  transition: all 0.5s ease-in-out;
+  
+    &:hover {
+      transform: scale(0.9);
+    }
+  .left_img{
+    width: 320px;
+      height: 500px;
+  }
+}
+@keyframes mySlide{
+  from{margin-left: -10%;}
+  to{margin-left:1%;}
+}
+
+.right_img_wrap {
+  animation: mySlide2 3s linear 0s;
+  animation-duration: 2s;
+  transition: all 0.5s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+}
+
+@keyframes mySlide2 {
+  from {
+    margin-right: -10%;
+  }
+
+  to {
+    margin-right: 1%;
+  }
+}
+
 .banner_top {
   display: flex;
   align-items: center;

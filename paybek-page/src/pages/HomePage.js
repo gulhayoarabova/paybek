@@ -7,6 +7,7 @@ import Essantials from "../components/Essantials/Essantials";
 import phone from "../assets/images/phone.png";
 import phone2 from "../assets/images/phone2.png";
 import Footer from "../container/Footer/Footer";
+import Slider from "../components/Slider/Sliderr"
 
 const HomePage = () => {
   return (
@@ -74,6 +75,9 @@ const HomePage = () => {
             <p className={classes.hundred_country}>Over 100+ Top up country</p>
 
           </div>
+        </div>
+        <div className={classes.slider_position}>
+          <Slider/>
         </div>
       </div>
 

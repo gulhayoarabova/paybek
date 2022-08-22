@@ -1,8 +1,13 @@
 .slide_wrapper{
-    // box-sizing: border-box;
-    // width: 100%;
-    // display: flex;
-    // flex-direction: row;
-    // align-items: center;
+    box-sizing: border-box;
 
+}
+.slider_img{
+width: 176.57px;
+    height: 172.96px;
+    transition: all .5s ease-in-out;
+    
+        &:hover {
+            scale: (0.9);
+        }
 }
